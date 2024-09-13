@@ -20,8 +20,43 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <p class="text-2xl underline">
-        hello world
-    </p>
+    <!-- ------------------------------- Nav Bar ------------------------------- -->
+    <nav class="container">
+        <!-- For Large screens -->
+        <div class="hidden md:flex items-center justify-between">
+            <!-- Logo -->
+            <a href="#">
+                <img src="/src/assets/logo-canal2.svg" alt="Logo-Canal-2-International">
+            </a>
+
+            <!-- Links -->
+            <ul class="flex gap-4 lg:gap-16">
+                <li><a href="#acceuil" class="py-1 text-xl text-dark-300 lg:text-2xl">Acceuil</a></li>
+                <li class="active"><a href="#actualités" class="py-1 text-xl text-dark-300 lg:text-2xl">Actualités</a></li>
+                <li><a href="#programme" class="py-1 text-xl text-dark-300 lg:text-2xl">Programme</a></li>
+                <li><a href="#direct" class="py-1 text-xl text-dark-300 lg:text-2xl">Direct</a></li>
+            </ul>
+
+            <!-- Button  -->
+            <a href="#" class="px-8 py-2 text-xl font-bold text-white transition-all bg-green-700 rounded-3xl hover:bg-green-500 transition-500">
+                Premium
+            </a>
+        </div>                
+
+        <!-- For Small screens -->
+        <div class="flex items-center justify-between w-full md:hidden">
+            <!-- Logo -->
+            <a href="#">
+                <img src="/src/assets/logo-canal2.svg" alt="Logo-Canal-2-International">
+            </a>
+
+            <!-- Bars -->
+            <button class="flex flex-col items-center justify-between p-1 w-9 h-9">
+                <span class="w-full border-2 border-green-900 rounded"></span>
+                <span class="w-full border-2 border-green-900 rounded"></span>
+                <span class="w-full border-2 border-green-900 rounded"></span>
+            </button>         
+        </div>
+    </nav> <!--End Of NavBar-->
 </body>
 </html>

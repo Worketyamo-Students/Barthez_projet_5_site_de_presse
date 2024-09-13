@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav li a{
+    @apply relative origin-left;
+}
+
+nav li a::before{
+    content: '';
+    @apply absolute bottom-0 w-0 left-0 h-1 bg-green-500;
+    animation:  underline-back .2s linear;
+}
+
+nav :is(li.active, li:hover) a{
+    @apply text-green-500;
+}
+
+nav :is(li.active, li:hover) a::before{
+    @apply w-[80%];
+    animation: underline-come .2s linear;
+}
+
+@keyframes underline-come {
+    from {
+        width: 0;
+        color: #000;
+    }
+}
+
+@keyframes underline-back {
+    from {
+        width: 80%;
+        color: rgb(34 197 94);
+    }
+}
