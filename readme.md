@@ -5,17 +5,16 @@ Petit projet front-end de refonte du site officiel de Canal 2 internationnal.
 
 ## Demo
 
-![alt text](src/assets/preview.png)
+![Preview](src/assets/preview.png)
 
-#### Voir le resultat: [Preview here](URL_du_lien)
+###### [Preview here](https://www.github.com/01Barthez)
 
-## accomplishments
+## Learned
 
-- apprentissages des Bases du HTML
-- Instalations et premiers pas avec tailwinds cli
-- manipulations des flex et de diverses proprietés css
-- Intégration des iframes dans le projets
-- Manipulation des fichiers svg
+- apprentissages des Bases du **HTML**
+- Instalations et premiers pas avec **tailwinds cli**
+- manipulations des **flex**,  et de diverses **proprietés css**
+- manipulation des **Images svg** et Intégration des **iframes** dans le projets
 - ...
 
 ## Authors
@@ -25,4 +24,5 @@ Petit projet front-end de refonte du site officiel de Canal 2 internationnal.
 ## Contributing
 
 La grande Equipe Worketyamo pour le design UI. et pour l'accompagnement.
-Contributions are always welcome
+
+![Preview](src/assets/preview2.svg)
